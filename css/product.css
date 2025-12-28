@@ -133,7 +133,6 @@ main {
   grid-row: 1 / 5;
 }
 
-
 .product {
   display: flex;
   gap: 70px;
