@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left">
+          <div class="logo">
+            <i class="fa-solid fa-store"></i>
+            <h2>LOQTA</h2>
+          </div>
+          <ul class="links">
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <div class="search-bar">
+            <input type="text" placeholder="search Products...." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="account">
+            <div class="cart-icon">
+              <a href="cart.html">
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </div>
+            <div class="cart-icon">
+              <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="number">1</span>
+              </a>
+            </div>
+            <div>
+              <a href="login.html">
+                <i class="fa-regular fa-user"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="main-sec">
+          <div class="left">
+            <div class="first">
+              <div class="start">
+                <h2>Your Shopping Bag</h2>
+                <p>You have <span id="cart-length">3</span> items in your cart</p>
+              </div>
+              <div class="end">
+                <a href="index.html">Continue Shopping</a>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div id="cartContainer" class="items"></div>
+          </div>
+          <div class="right">
+            <h2>Order Summary</h2>
+            <div class="summary">
+              <!-- <div>
+                <span>subtotal</span>
+                <span>$225.00</span>
+              </div>
+              <div>
+                <span>subtotal</span>
+                <span>$225.00</span>
+              </div>
+              <div>
+                <span>subtotal</span>
+                <span>$225.00</span>
+              </div> -->
+            </div>
+            <div class="line"></div>
+            <div class="promo">Promo Code</div>
+            <div class="discount">
+              <input type="text" placeholder="Enter Code" />
+              <button class="apply-coupon">Apply</button>
+            </div>
+            <div class="total">
+              <!-- <h3>Order Total</h3>
+              <h2>$253.00</h2> -->
+            </div>
+            <button class="checkout"><span>Checkout</span> <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="secure"><i class="fa-solid fa-lock"></i> <span>Secure Checkout</span></div>
+          </div>
+        </div>
+        <footer>
+          <div class="contain">
+            <div class="first">
+              <h2>Luxe</h2>
+              <p>Elevated essentials for the modern wardrobe. Designed in New York.</p>
+            </div>
+            <div class="second">
+              <h2>shop</h2>
+              <div class="list">
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+              </div>
+            </div>
+            <div class="third">
+              <h2>Support</h2>
+              <div class="list">
+                <a href="#">Help center</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+              </div>
+            </div>
+            <div class="fourth">
+              <h2>Stay in the loop</h2>
+              <input type="text" placeholder="Enter Your Email" />
+              <button>join</button>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>

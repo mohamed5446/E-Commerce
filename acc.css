@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.left {
+  width: 50%;
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDY62-2SrHNMaFcqfwE1wgl15wsKXUAYUJn-6SyTgq2j_la8IeaD9SxLQzOt0KAVb3qNbhUoWRYrMH3l5Vk943f3FY8DpqQ1zYQKQCXI1fRi3tqX2Ms0JXmtgZfMCMwEdFXDDcUZOKZK5agWeAD002FKgvJDFX68c9NP57ptds0Tzm3JIykTs_rG5OLDlmvzAaljlNVeY5TgG9zDZ3NLNQ8TeBeIQMmyexMz6WzDNUL0nhNwOWLgXqHqTtynVlKloM0iZawAKxqNGY");
+  background-size: cover;
+}
+.right {
+  width: 50%;
+  background-color: #102217;
+  color: #fff;
+  padding: 100px;
+  padding-inline: 150px;
+}
+.right h2 {
+  margin-block-end: 10px;
+}
+.right p {
+  color: #959ca7;
+  margin-block-end: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+form input {
+  background-color: #1c2e24;
+  border-radius: 30px;
+  border: 1px solid #1c2e24;
+  padding-inline-start: 15px;
+  padding-block: 16px;
+  margin-block-start: 10px;
+  margin-block-end: 20px;
+  font-size: 19px;
+}
+form button {
+  background-color: #2bee79;
+  border: 1px solid #2bee79;
+
+  font-size: 22px;
+  color: #000;
+  padding-inline-start: 15px;
+  padding-block: 16px;
+  border-radius: 30px;
+  margin-block-start: 10px;
+}
+
+.right .line {
+  background-color: #959ca7;
+  height: 1px;
+  margin-block: 63px;
+  position: relative;
+}
+.right .line:after {
+  content: "Or Continue With";
+  position: absolute;
+  background-color: #102217;
+  color: #959ca7;
+  font-size: 20px;
+  bottom: -19px;
+  right: 198px;
+  padding: 5px;
+  z-index: 999;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.buttons button {
+  width: 50%;
+  background-color: #1c2e24;
+  border: 1px solid #1c2e24;
+
+  color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.buttons button i {
+  margin-inline-end: 10px;
+}
+.buttons button:nth-child(1) i {
+  color: orange;
+}
+.buttons button:nth-child(2) i {
+  color: #1877f2;
+}
+.navigate {
+  padding-inline: 110px;
+  margin-block-start: 40px;
+  font-size: 20px;
+}
+.navigate a {
+  color: #2bee79;
+}
+button {
+  cursor: pointer;
+}
+label {
+  font-size: 18px;
+}

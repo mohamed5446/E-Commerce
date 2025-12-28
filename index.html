@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left">
+          <div class="logo">
+            <i class="fa-solid fa-store"></i>
+            <h2>LOQTA</h2>
+          </div>
+          <ul class="links">
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <div class="search-bar">
+            <input id="s" type="text" placeholder="search Products...." />
+            <i onclick="search()" class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="account">
+            <div class="cart-icon">
+              <a href="cart.html">
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </div>
+            <div class="cart-icon">
+              <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="number">1</span>
+              </a>
+            </div>
+            <div>
+              <a href="login.html">
+                <i class="fa-regular fa-user"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="main-sec">
+          <section class="first">
+            <div class="left">
+              <div class="breadcrumb"><span>Home </span>/ <span>Men </span>/ <span>New Arrivals</span></div>
+              <h2>New Arrivals</h2>
+              <p>Fresh futuristic styles just landed on the grid.</p>
+            </div>
+            <div class="right">
+              <span>Sort by:</span>
+              <button>Recommended ▾</button>
+            </div>
+          </section>
+          <section class="second">
+            <div class="left-sec">
+              <div class="filter">
+                <i class="fa-solid fa-filter"></i>
+                <span>Filters</span>
+              </div>
+              <div class="categories">
+                <h2>Categories</h2>
+                <div class="category-list"></div>
+              </div>
+            </div>
+            <div id="products-container" class="right cards">
+              <!-- <div class="product">
+                <div class="card">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img src="unnamed.png" alt="" />
+                  <button>Quick Add</button>
+                </div>
+                <div class="content">
+                  <div class="left">
+                    <h2>Cyber Tech Hoodie</h2>
+                    <h4>Techwear Essentials</h4>
+                    <h3>$120.00</h3>
+                  </div>
+                  <div class="right">
+                    <i class="fa-regular fa-star"></i>
+                    <span>4.7</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product">
+                <div class="card">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img src="unnamed.png" alt="" />
+                  <button>Quick Add</button>
+                </div>
+                <div class="content">
+                  <div class="left">
+                    <h2>Cyber Tech Hoodie</h2>
+                    <h4>Techwear Essentials</h4>
+                    <h3>$120.00</h3>
+                  </div>
+                  <div class="right">
+                    <i class="fa-regular fa-star"></i>
+                    <span>4.7</span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="product">
+                <div class="card">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img src="unnamed.png" alt="" />
+                  <button>Quick Add</button>
+                </div>
+                <div class="content">
+                  <div class="left">
+                    <h2>Cyber Tech Hoodie</h2>
+                    <h4>Techwear Essentials</h4>
+                    <h3>$120.00</h3>
+                  </div>
+                  <div class="right">
+                    <i class="fa-regular fa-star"></i>
+                    <span>4.7</span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="product">
+                <div class="card">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img src="unnamed.png" alt="" />
+                  <button>Quick Add</button>
+                </div>
+                <div class="content">
+                  <div class="left">
+                    <h2>Cyber Tech Hoodie</h2>
+                    <h4>Techwear Essentials</h4>
+                    <h3>$120.00</h3>
+                  </div>
+                  <div class="right">
+                    <i class="fa-regular fa-star"></i>
+                    <span>4.7</span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="product">
+                <div class="card">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img src="unnamed.png" alt="" />
+                  <button>Quick Add</button>
+                </div>
+                <div class="content">
+                  <div class="left">
+                    <h2>Cyber Tech Hoodie</h2>
+                    <h4>Techwear Essentials</h4>
+                    <h3>$120.00</h3>
+                  </div>
+                  <div class="right">
+                    <i class="fa-regular fa-star"></i>
+                    <span>4.7</span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="product">
+                <div class="card">
+                  <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img src="unnamed.png" alt="" />
+                  <button>Quick Add</button>
+                </div>
+                <div class="content">
+                  <div class="left">
+                    <h2>Cyber Tech Hoodie</h2>
+                    <h4>Techwear Essentials</h4>
+                    <h3>$120.00</h3>
+                  </div>
+                  <div class="right">
+                    <i class="fa-regular fa-star"></i>
+                    <span>4.7</span>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </section>
+        </div>
+        <footer>
+          <div class="contain">
+            <div class="first">
+              <h2>Luxe</h2>
+              <p>Elevated essentials for the modern wardrobe. Designed in New York.</p>
+            </div>
+            <div class="second">
+              <h2>shop</h2>
+              <div class="list">
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+              </div>
+            </div>
+            <div class="third">
+              <h2>Support</h2>
+              <div class="list">
+                <a href="#">Help center</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">New Arrivals</a>
+              </div>
+            </div>
+            <div class="fourth">
+              <h2>Stay in the loop</h2>
+              <input type="text" placeholder="Enter Your Email" />
+              <button>join</button>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
